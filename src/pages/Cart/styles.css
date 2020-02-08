@@ -1,0 +1,28 @@
+div.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+footer button {
+  padding: 12px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+div.total span {
+  font-weight: bold;
+  color: #999;
+}
+
+div.total strong{
+  font-size: 28px;
+  color: #000;
+}

@@ -1,0 +1,67 @@
+table {
+  width: 100%;
+}
+
+thead th {
+  color: #999;
+  text-align: left;
+  padding: 12px;
+}
+
+tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+td img {
+  width: 100px;
+}
+
+strong.product-name {
+  font-size: 13px;
+  color: #333;
+  display: block;
+
+}
+
+span.product-price {
+  color: #333;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+td div {
+  display: flex;
+  align-items: center;
+}
+
+input.product-qtd {
+  width: 40px;
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #666;
+}
+
+button.remove {
+  display: inline-block;
+  background-color: unset;
+}
+
+button.add {
+  display: inline-block;
+  background-color: unset;
+}
+
+button.delete {
+  display: inline-block;
+  background-color: unset;
+}
+
+strong.subtotal {
+  font-size: 14px;
+  color: #333;
+}
+

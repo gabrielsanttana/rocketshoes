@@ -1,0 +1,23 @@
+div.cart-container {
+  display: flex;
+  transition: opacity 0.2s;
+}
+
+div.cart-container:hover {
+  display: flex;
+  opacity: 0.7;
+}
+
+div.cart {
+  margin-right: 15px;
+}
+
+strong {
+  display: block;
+  color: #fff;
+}
+
+span {
+  font-size: 12px;
+  color: #999;
+}
