@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
-import {addToCart} from "../../store/modules/cart/actions";
+import {addToCart, addToCartRequest} from "../../store/modules/cart/actions";
 
 import api from "../../services/api";
 import {formatPrice} from "../../utils/format";
@@ -28,10 +28,10 @@ class ProductList extends Component {
     this.setState({stock: stock});
   }
 
-  handleAddProduct = (product) => {
+  handleAddProduct = (product_id) => {
     const {dispatch} = this.props;
 
-    dispatch(addToCart(product));
+    dispatch(addToCartRequest(product_id));
   };
 
   render() {
@@ -45,7 +45,7 @@ class ProductList extends Component {
             <img src={product.image} alt="tenis"/>
             <strong>{product.title}</strong>
             <span>{product.formattedPrice}</span>
-            <button type="button" onClick={() => {this.handleAddProduct(product)}}>
+            <button type="button" onClick={() => {this.handleAddProduct(product.id)}}>
               <div>
                 <MdAddShoppingCart size={20} color="#fff" /> {amount[product.id] || 0}
 
