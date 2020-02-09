@@ -19,9 +19,17 @@ export function removeFromCart(product_id) {
   };
 } 
 
-export function updateAmount(product_id, amount) {
+export function updateAmountRequest(product_id, amount) {
   return {
-    type: "@cart/UPDATE_AMOUNT",
+    type: "@cart/UPDATE_AMOUNT_REQUEST",
+    product_id,
+    amount
+  }
+}
+
+export function updateAmountSuccess(product_id, amount) {
+  return {
+    type: "@cart/UPDATE_AMOUNT_SUCCESS",
     product_id,
     amount
   }
