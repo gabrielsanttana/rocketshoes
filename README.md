@@ -4,7 +4,7 @@
 
 <p align="center">A minimalist shoe store application based on Netshoes 🥾</p>
 
-## 🛠️ Technologies:
+## 🛠️ Technologies
 
 <ul>
   <li><a href="https://nodejs.org/en/">Node.js</a></li>
@@ -13,14 +13,14 @@
   <li><a href="https://www.npmjs.com/package/json-server">JSON Server</a></li>
 </ul>
 
-## ⚙️ Requirements:
+## ⚙️ Requirements
 
 <ul>
   <li><a href="https://nodejs.org/en/">Node.js</a></li>
   <li><a href="https://www.npmjs.com/">NPM</a></li>
 </ul>
 
-## 🚀 Installation:
+## 🚀 Installation
 
 ```
 $ git clone https://github.com/gabrielsanttana/rocketshoes
@@ -46,6 +46,6 @@ $ npm start
 
 The application will pop-up in the browser on http://localhost:3000
 
-## ⚖️ License:
+## ⚖️ License
 
 [MIT License](https://github.com/gabrielsanttana/rocketshoes/blob/master/LICENSE)
