@@ -10,6 +10,8 @@
   <li><a href="https://nodejs.org/en/">Node.js</a></li>
   <li><a href="https://expressjs.com/">Express</a></li>
   <li><a href="https://reactjs.org/">React</a></li>
+  <li><a href="https://redux.js.org/">Redux</a></li>
+  <li><a href="https://github.com/immerjs/immer">Immer.js</a></li>
   <li><a href="https://www.npmjs.com/package/json-server">JSON Server</a></li>
 </ul>
 
