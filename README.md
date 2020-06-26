@@ -29,7 +29,7 @@
 $ git clone https://github.com/gabrielsanttana/rocketshoes
 ```
 
-#### API
+### API
 
 ```bash
 $ cd rocketshoes
@@ -39,7 +39,7 @@ $ json-server server.json -p 3333
 
 JSON Server will simulate a RESTful API and serve on http://localhost:3333
 
-#### Web
+### Web
 
 ```bash
 $ cd rocketshoes
