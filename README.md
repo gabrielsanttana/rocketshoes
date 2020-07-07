@@ -25,7 +25,7 @@
 
 ## 🚀 Installation
 
-```
+```bash
 $ git clone https://github.com/gabrielsanttana/rocketshoes
 ```
 
@@ -34,7 +34,7 @@ $ git clone https://github.com/gabrielsanttana/rocketshoes
 ```bash
 $ cd rocketshoes
 $ npm install
-$ json-server server.json -p 3333
+$ npm run server
 ```
 
 JSON Server will simulate a RESTful API and serve on http://localhost:3333
