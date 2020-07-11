@@ -1,10 +1,10 @@
-# <div align="center" style="margin-bottom: 50px">Rocketshoes 🥾</div>
+# <div align="center" style="margin-bottom: 50px">Rocketshoes 👟</div>
 
 ####
 
 <img src="./.github/homepage.png" />
 
-<p align="center">A minimalist shoe store application based on Netshoes 🥾</p>
+<p align="center">A minimalist shoe store application based on Netshoes 👟</p>
 
 ## 🛠️ Technologies
 
