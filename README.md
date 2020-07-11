@@ -2,7 +2,7 @@
 
 ####
 
-<img src="./.github/homepage.jpg" />
+<img src="./.github/homepage.png" />
 
 <p align="center">A minimalist shoe store application based on Netshoes 🥾</p>
 
