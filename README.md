@@ -1,6 +1,8 @@
 # <div align="center" style="margin-bottom: 50px">Rocketshoes 🥾</div>
 
-###
+####
+
+<img src="./.github/homepage.jpg" />
 
 <p align="center">A minimalist shoe store application based on Netshoes 🥾</p>
 
@@ -39,12 +41,14 @@ $ npm run server
 
 JSON Server will simulate a RESTful API and serve on http://localhost:3333
 
+> Note: It's necessary to have the API running to be able to properly run the web app
+
 ### 💻 Web
 
 ```bash
 $ cd rocketshoes
 $ npm install
-$ npm start 
+$ npm start
 ```
 
 The application will pop-up in the browser on http://localhost:3000
