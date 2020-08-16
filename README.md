@@ -32,7 +32,7 @@
 $ git clone https://github.com/gabrielsanttana/rocketshoes
 ```
 
-### 🗄️ API
+### 📦 API
 
 ```bash
 $ cd rocketshoes
